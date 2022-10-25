@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="vendor/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.css" rel="stylesheet" type="text/css"/>
+        <script src="vendor/js/bootstrap.bundle.min.js"></script>
+        <script src="vendor/js/jquery-3.6.1.min.js"></script>
+        <script src="app/app.js"></script>
+    </head>
+    <body>
+        <audio src="" id="player">
+            
+        </audio>
+        <div class="container-fluid">
+            <div class="ajuste"></div>
+            <div class="row">
+                <div class="col-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title" id="contador">Parado</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Tom: <span  id="text_tom"></span>  <span id="text_kit"></span> </h6>
+                            <h6 class="card-subtitle mb-2 text-muted" id="text_duracao">Duração: 00:00</h6>
+                            
+                        </div>
+                    </div>
+                    <div class="ajuste"></div>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-danger" id="btn-stop">Stop</button>
+                        <button type="button" class="btn btn-primary" id="btn-reset">Reset</button>
+                        <button type="button" class="btn btn-success" id="btn-start">Vol +</button>
+                        <button type="button" class="btn btn-secondary" id="btn-pause">Vol -</button>
+                        
+                        
+                    </div>
+                    <div class="ajuste"></div>
+                    <ul class="list-group">
+                        <li class="list-group-item" id="list_set1">Set 01</li>
+                        <li class="list-group-item" id="list_set2">Set 02</li>
+                        <li class="list-group-item" id="list_set3">Set 03</li>
+                        <li class="list-group-item" id="list_set4">Set 04</li>
+                    </ul>
+                </div>
+
+                <div class="col-7 border-start">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="c">C</button>    
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="c_plus">C#</button>    
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="d">D</button>   
+                            </div>                            
+                        </div>                        
+                    </div>
+                    <div class="ajuste"></div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="d_plus">D#</button>   
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="e">E</button>      
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="f">F</button>      
+                            </div>                            
+                        </div>                        
+                    </div>
+                    <div class="ajuste"></div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="f_plus">F#</button>     
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="g">G</button>  
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="g_plus">G#</button>      
+                            </div>                            
+                        </div>                        
+                    </div>
+                    <div class="ajuste"></div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="a">A</button>  
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="a_plus">A#</button>     
+                            </div>                            
+                        </div>
+                        <div class="col-4">
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary ajuste-btn" type="button" id="b">B</button>       
+                            </div>                            
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
